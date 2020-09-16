@@ -1,5 +1,5 @@
 # Binary to Decimal Converter
-Binary to Decimal converter using React
+
 Ideas form [here](https://github.com/florinpop17/app-ideas)
 
 # Bin2Dec
