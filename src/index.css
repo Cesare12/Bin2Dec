@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+}
+
+.note {
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Mono", "Consolas", monospace;
+    font-size: 20px;
+}
+
+.input {
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    padding: .75rem 1rem;
+    font-family: "Roboto Mono", "Consolas", monospace;
+    font-size: 2rem;
+}
+
+.output {
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto Mono", "Consolas", monospace;
+}
+
+.error {
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto Mono", "Consolas", monospace;
+    color: red;
+}
