@@ -32,7 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://cesare12.github.io/Bin2Dec/",
+  "homepage": "https://cesare12.github.io/Bin2Dec",
   "description": "bin2dec-converter",
   "main": "src/index.js",
   "devDependencies": {
