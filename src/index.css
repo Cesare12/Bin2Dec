@@ -16,13 +16,6 @@ h1 {
     text-align: center;
 }
 
-.note {
-    align-items: center;
-    text-align: center;
-    font-family: "Roboto Mono", "Consolas", monospace;
-    font-size: 20px;
-}
-
 .input {
     margin-top: 10px;
     align-items: center;
@@ -33,6 +26,7 @@ input {
     padding: .75rem 1rem;
     font-family: "Roboto Mono", "Consolas", monospace;
     font-size: 2rem;
+    width: 28rem;
 }
 
 .output {
@@ -44,10 +38,5 @@ input {
 }
 
 .error {
-    margin-top: 10px;
-    align-items: center;
-    text-align: center;
-    font-size: 2rem;
-    font-family: "Roboto Mono", "Consolas", monospace;
     color: red;
 }

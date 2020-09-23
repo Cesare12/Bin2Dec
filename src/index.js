@@ -19,12 +19,14 @@ function App() {
             <div className='title'>
                 <h1 className='title'>Binary to Decimal Converter</h1>
             </div>
-            <div className='note'>Please enter a binary number</div>
             <div className='input'>
-                <input value={binaryText} onChange={e => setBinaryText(e.target.value)} />
+                <input placeholder='Enter a binary number' value={binaryText} onChange={e => setBinaryText(e.target.value)} />
             </div>
-            <div className='output'>{result}</div>
-            <div className='error'>{error}</div>
+            <div className='output'>
+                <div >{result}</div>
+                <div className='error'>{error}</div>
+            </div>
+
         </>
     )
 }
