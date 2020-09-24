@@ -2,6 +2,8 @@
 
 Ideas form [here](https://github.com/florinpop17/app-ideas)
 
+Demo [Here](https://cesare12.github.io/Bin2Dec/)
+
 # Bin2Dec
 
 Tier: 1-Beginner
