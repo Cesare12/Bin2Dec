@@ -9,7 +9,7 @@ function App() {
         && !regExpNotBin.test(binaryText)
         && binaryText.split('').reverse().reduce(
             (total, curVal, index) => {
-                curVal === '1' && (total += Math.pow(2, index))
+                curVal === '1' && (total += 2 ** index)
                 return total;
             }, 0)
     var error = ''
@@ -26,7 +26,6 @@ function App() {
                 <div >{result}</div>
                 <div className='error'>{error}</div>
             </div>
-
         </>
     )
 }
